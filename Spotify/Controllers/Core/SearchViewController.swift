@@ -17,7 +17,6 @@ class SearchViewController: UIViewController, UISearchResultsUpdating, UISearchB
         vc.searchBar.searchBarStyle = .minimal
         vc.definesPresentationContext = true
         return vc
-        
     }()
     
     private var categories = [Category]()
@@ -102,6 +101,7 @@ class SearchViewController: UIViewController, UISearchResultsUpdating, UISearchB
 
 extension SearchViewController: SearchResultsViewControllerDelegate {
     func didTapResult(_ result: SearchResult) {
+        
         switch result {
             case .artist(let model):
                 guard let url = URL(string: model.external_urls["spotify"] ?? "") else {

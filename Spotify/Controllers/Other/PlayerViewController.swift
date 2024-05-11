@@ -91,8 +91,6 @@ extension PlayerViewController: PlayerControlsViewDelegate {
         delegate?.didTapForward()
     }
 
-   
-
     func playerControlsView(_ playerControlsView: PlayerControlsView, didSlideSlider value: Float) {
         delegate?.didSlideSlider(value)
     }

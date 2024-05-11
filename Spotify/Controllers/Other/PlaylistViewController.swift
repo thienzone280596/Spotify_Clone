@@ -145,6 +145,7 @@ extension PlaylistViewController: UICollectionViewDelegate, UICollectionViewData
     return header
         
     }
+    
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         collectionView.deselectItem(at: indexPath, animated: true)
         //Play Song

@@ -6,6 +6,7 @@
     //
 
 import UIKit
+
 enum BrowseSectionType {
     case newReleases(viewModels: [NewReleasesCellViewModel]) // 1
     case featuredPlaylists(ViewModels:[FeaturedPlaylistCellViewModel]) // 2
@@ -22,6 +23,7 @@ enum BrowseSectionType {
         }
     }
 }
+
 class HomeViewController: UIViewController {
     private var newAlbums: [Album] = []
     private var playlists: [Playlist] = []

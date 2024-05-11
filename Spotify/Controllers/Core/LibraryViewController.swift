@@ -14,7 +14,6 @@ class LibraryViewController: UIViewController {
     private let scrollView:UIScrollView = {
         let scrollView = UIScrollView()
         scrollView.isPagingEnabled = true
-        
         return scrollView
     }()
     //add Toggle View
@@ -61,7 +60,7 @@ class LibraryViewController: UIViewController {
 
 extension LibraryViewController:UIScrollViewDelegate {
     func scrollViewDidScrollToTop(_ scrollView: UIScrollView) {
-        if scrollView.contentOffset.x >= (view.width-100) {
+        if scrollView.contentOffset.x >= (view.width+100) {
             toggleView.update(for: .album)
         } else {
             toggleView.update(for: .playlist)

@@ -128,7 +128,7 @@
 		F8C43DEE27B21BFF005845A1 /* RecommendedTrackCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecommendedTrackCollectionViewCell.swift; sourceTree = "<group>"; };
 		F8C43DF027B21DA8005845A1 /* NewReleasesCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReleasesCellViewModel.swift; sourceTree = "<group>"; };
 		F8C98A9827C912C900EC70F9 /* PlayerControlsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerControlsView.swift; sourceTree = "<group>"; };
-		F8DE5AEC27A3A937009CDDFA /* Spotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8DE5AEC27A3A937009CDDFA /* Spotify Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Spotify Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8DE5AEF27A3A937009CDDFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8DE5AF127A3A937009CDDFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F8DE5AF327A3A937009CDDFA /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -255,7 +255,7 @@
 		F8DE5AED27A3A937009CDDFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8DE5AEC27A3A937009CDDFA /* Spotify.app */,
+				F8DE5AEC27A3A937009CDDFA /* Spotify Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -352,9 +352,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8DE5AEB27A3A937009CDDFA /* Spotify */ = {
+		F8DE5AEB27A3A937009CDDFA /* Spotify Dev */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8DE5B0027A3A93B009CDDFA /* Build configuration list for PBXNativeTarget "Spotify" */;
+			buildConfigurationList = F8DE5B0027A3A93B009CDDFA /* Build configuration list for PBXNativeTarget "Spotify Dev" */;
 			buildPhases = (
 				656D2D07D3CAD9BCE9D7C048 /* [CP] Check Pods Manifest.lock */,
 				F8DE5AE827A3A937009CDDFA /* Sources */,
@@ -366,9 +366,9 @@
 			);
 			dependencies = (
 			);
-			name = Spotify;
+			name = "Spotify Dev";
 			productName = Spotify;
-			productReference = F8DE5AEC27A3A937009CDDFA /* Spotify.app */;
+			productReference = F8DE5AEC27A3A937009CDDFA /* Spotify Dev.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -386,7 +386,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8DE5AE727A3A937009CDDFA /* Build configuration list for PBXProject "Spotify" */;
+			buildConfigurationList = F8DE5AE727A3A937009CDDFA /* Build configuration list for PBXProject "Spotify Dev" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -399,7 +399,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8DE5AEB27A3A937009CDDFA /* Spotify */,
+				F8DE5AEB27A3A937009CDDFA /* Spotify Dev */,
 			);
 		};
 /* End PBXProject section */
@@ -662,7 +662,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RJMC52SL5Z;
+				DEVELOPMENT_TEAM = UPWZYM9BJD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Spotify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -690,7 +690,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RJMC52SL5Z;
+				DEVELOPMENT_TEAM = UPWZYM9BJD;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Spotify/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -713,7 +713,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8DE5AE727A3A937009CDDFA /* Build configuration list for PBXProject "Spotify" */ = {
+		F8DE5AE727A3A937009CDDFA /* Build configuration list for PBXProject "Spotify Dev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8DE5AFE27A3A93B009CDDFA /* Debug */,
@@ -722,7 +722,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8DE5B0027A3A93B009CDDFA /* Build configuration list for PBXNativeTarget "Spotify" */ = {
+		F8DE5B0027A3A93B009CDDFA /* Build configuration list for PBXNativeTarget "Spotify Dev" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8DE5B0127A3A93B009CDDFA /* Debug */,

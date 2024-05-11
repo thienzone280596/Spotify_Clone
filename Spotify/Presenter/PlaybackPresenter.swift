@@ -9,6 +9,7 @@ protocol PlayerDataSource: AnyObject {
     var imageURL: URL? { get }
 }
 
+
 final class PlaybackPresenter {
     static let shared = PlaybackPresenter()
 
@@ -32,6 +33,7 @@ final class PlaybackPresenter {
 
     var player: AVPlayer?
     var playerQueue: AVQueuePlayer?
+    
 
     func startPlayback(
         from viewController: UIViewController,

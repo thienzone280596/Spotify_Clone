@@ -39,6 +39,7 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
         view.addSubview(tableView)
         tableView.delegate = self
         tableView.dataSource = self
+        
     }
     
     override func viewDidLayoutSubviews() {
